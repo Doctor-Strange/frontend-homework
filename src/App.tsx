@@ -1,11 +1,11 @@
-import './stylesheets/index.scss'
+import "./stylesheets/index.scss";
 
-import DropdownLink from './DropdownLink'
+import Dropdown from "./components/dropdown/dropdown";
 
 const App = () => (
-  <nav className="nav">
-    <DropdownLink />
+  <nav data-test-id='nav' className='nav'>
+    <Dropdown />
   </nav>
-)
+);
 
-export default App
+export default App;

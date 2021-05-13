@@ -1,0 +1,30 @@
+@import "../../../stylesheets/variables/index.scss";
+
+.link {
+  display: flex;
+  align-items: center;
+  max-width: 280px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 100ms background-color;
+  &:hover,
+  &:focus {
+    background-color: $grey-2;
+  }
+  &:active {
+    background-color: $grey-3;
+  }
+  .text_wrapper {
+    text-align: right;
+  }
+  .text {
+    font-weight: bold;
+  }
+  .subtext {
+    color: $grey-6;
+  }
+  .icon {
+    margin-left: 8px;
+  }
+}
